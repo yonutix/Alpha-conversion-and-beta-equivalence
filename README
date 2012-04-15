@@ -1,0 +1,13 @@
+Mihai Ionut Cosmin 322CC
+
+
+Pentru beta reducere este utilizata o functie "beta_red" care primeste ca parametru o lista.
+Se apeleaza recursiv si utilizeaza functia "repclr" care efectiv substituie variabilele.Verifica mai multe cazuri in care se poate afla lista:
+Daca are lungimea 3, se incearca recursiv o reducere a corpului.
+Daca are lungimea 2 se verifica fiecare din cele 2 elemente care pot fi functie, expresie sau element si se apeleaza recursiv in functie de ele.
+Daca are lungimea 1 se face o reducere a eleemntului functiei.
+
+Pentru alfa conversie mai intai se verifica daca este nevoie de alfa conversie, apoi se genereaza o lista de perechi variabila-noua variabila generata si apoi se inlocuiesc in corp variabilele legate dar libere cu variabila generata.In aplicatie variabila ramane cea veche
+
+Descrierea sumara a functiilor se gaseste in sursa.
+Timpul de testare este in jur de 1-2 min.
